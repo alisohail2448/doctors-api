@@ -5,8 +5,8 @@ const app = express();
 app.use(cors());
 
 const doctors = [
-    { id: 1, name: "Dr. Smith", expertise: "Orthopedic Surgeon", city: "Mumbai" },
-    { id: 2, name: "Dr. Johnson", expertise: "Cardiologist", city: "Mumbai" },
+    { id: 1, name: "Dr. Jadhav", expertise: "Orthopedic Surgeon", city: "Mumbai" },
+    { id: 2, name: "Dr. Gawande", expertise: "Cardiologist", city: "Mumbai" },
     { id: 3, name: "Dr. Patel", expertise: "Dermatologist", city: "Pune" },
     { id: 4, name: "Dr. Sam", expertise: "Orthologist", city: "Pune" },
     { id: 5, name: "Dr. AB Patel", expertise: "Cardiologist", city: "Pune" },
