@@ -1,7 +1,9 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 
-// Sample doctor data
+app.use(cors());
+
 const doctors = [
     { id: 1, name: "Dr. Smith", expertise: "Orthopedic Surgeon", city: "Mumbai" },
     { id: 2, name: "Dr. Johnson", expertise: "Cardiologist", city: "Mumbai" },
